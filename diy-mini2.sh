@@ -186,13 +186,13 @@ cp -f $GITHUB_WORKSPACE/configfiles/dts/rk3588-orangepi-5-plus.dts target/linux/
 
 
 # 电工大佬的rtl8367b驱动资源包，暂时使用这样替换
-wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b.tar.gz
-tar -xvf rtl8367b.tar.gz
+#wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b.tar.gz
+#tar -xvf rtl8367b.tar.gz
 
 
 # openwrt主线rtl8367b驱动资源包，暂时使用这样替换
-# wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b-openwrt.tar.gz
-# tar -xvf rtl8367b-openwrt.tar.gz
+wget https://github.com/xiaomeng9597/files/releases/download/files/rtl8367b-openwrt.tar.gz
+tar -xvf rtl8367b-openwrt.tar.gz
 # 适配机型代码结束
 
 
